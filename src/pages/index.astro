@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import WillItSandwich from '../components/WillItSandwich.tsx'
+---
+
+<Layout title="Welcome to Astro.">
+	<div class="max-w-3xl mx-auto">
+		<h1 class="m-14 text-center">Will It Sandwich?</h1>
+		<WillItSandwich client:load/>
+	</div>
+</Layout>
